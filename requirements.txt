@@ -109,7 +109,7 @@ parso==0.8.3
 patsy==0.5.3
 pendulum==2.1.2
 pickleshare==0.7.5
-Pillow==9.3.0
+Pillow
 platformdirs==2.6.2
 plotly==5.11.0
 pluggy==1.0.0
@@ -187,6 +187,7 @@ websocket-client==1.4.2
 Werkzeug==2.2.2
 widgetsnbextension==4.0.5
 wrapt==1.14.1
+
 
 
 
