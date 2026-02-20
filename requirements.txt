@@ -43,7 +43,7 @@ folium==0.14.0
 fonttools==4.38.0
 fqdn==1.5.1
 gast==0.4.0
-gensim==4.2.0
+gensim
 google-auth==2.15.0
 google-auth-oauthlib==0.4.6
 google-pasta==0.2.0
@@ -187,3 +187,4 @@ websocket-client==1.4.2
 Werkzeug==2.2.2
 widgetsnbextension==4.0.5
 wrapt==1.14.1
+
