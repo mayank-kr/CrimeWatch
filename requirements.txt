@@ -133,7 +133,7 @@ python-translator==1.0.3
 pytz==2022.6
 pytz-deprecation-shim==0.1.0.post0
 pytzdata==2020.1
-pywin32==305
+pywin32
 pywinpty==2.0.10
 PyYAML==6.0
 pyzmq==24.0.1
@@ -187,6 +187,7 @@ websocket-client==1.4.2
 Werkzeug==2.2.2
 widgetsnbextension==4.0.5
 wrapt==1.14.1
+
 
 
 
