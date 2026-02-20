@@ -1,3 +1,4 @@
+import ctypes
 import plotly.graph_objects as go
 import plotly.express as px
 import folium
@@ -8,6 +9,13 @@ import folium.plugins as plugins
 import pickle
 import numpy as np
 import pandas as pd
+import os
+
+try:
+    lib_path = os.path.join(os.path.dirname(__file__), 'libgomp.so.1')
+    ctypes.cdll.LoadLibrary(lib_path)
+except Exception as e:
+    print(f"Could not load libgomp: {e}")
 
 app = Flask(__name__)
 
